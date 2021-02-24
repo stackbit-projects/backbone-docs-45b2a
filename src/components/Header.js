@@ -90,7 +90,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
         },
       } = data;
 
-      const finalLogoLink = logo.link !== '' ? logo.link : 'https://manifoldfinance.com.io/';
+      const finalLogoLink = logo.link !== '' ? logo.link : 'https://manifoldfinance.com/';
 
       return (
         <div className={'navBarWrapper'}>
